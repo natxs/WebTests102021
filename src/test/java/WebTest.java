@@ -20,7 +20,6 @@ public class WebTest {
 
         String actualResult = driver.getCurrentUrl();
 
-
         driver.close();
         driver.quit();
     }
