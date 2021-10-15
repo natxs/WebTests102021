@@ -16,7 +16,6 @@ public class WebTest {
         WebDriver driver = new ChromeDriver();
 
         driver.get(url);
-        Thread.sleep(3000);
 
         String actualResult = driver.getCurrentUrl();
 
